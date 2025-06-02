@@ -1,0 +1,24 @@
+[project]
+name = "DataMiningProject"
+version = "0.1.0"
+description = "Replicate `An Enhanced Ensemble Learning Method for Sentiment Analysis based on Q-learning` paper results."
+requires-python = "~=3.11"
+dependencies = [
+    "contractions>=0.1.73",
+    "emot>=3.1",
+    "kagglehub>=0.3.12",
+    "matplotlib>=3.10.3",
+    "nltk>=3.9.1",
+    "notebook>=7.4.3",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.11.12",
+]

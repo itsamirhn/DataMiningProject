@@ -2,6 +2,11 @@
 
 A data mining project that replicates the results from the paper "An Enhanced Ensemble Learning Method for Sentiment Analysis based on Q-learning" using the Yelp Reviews dataset.
 
+## Project Presentation
+
+- [Online Presentation (Google Slides)](https://docs.google.com/presentation/d/1LoxtbJsh631oyjNnnTFM6Bzv6sChcTwHrr-5Nxe00iA/)
+- [Offline Version (presentation.pdf)](presentation.pdf)
+
 ## Overview
 
 This project implements sentiment analysis on Yelp restaurant reviews, following the methodology described in the research paper. The analysis includes data preprocessing, exploratory data analysis, and model evaluation for sentiment classification.
@@ -36,13 +41,13 @@ DataMiningProject/
 ### 1. Clone and Navigate to Project
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/itsamirhn/DataMiningProject.git
 cd DataMiningProject
 ```
 
 ### 2. Install Dependencies
 
-**Using UV (recommended):**
+**Using UV:**
 
 ```bash
 uv sync

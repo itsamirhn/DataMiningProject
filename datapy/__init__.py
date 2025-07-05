@@ -1,0 +1,1 @@
+from .slangs import slangs_dict
